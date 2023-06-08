@@ -171,9 +171,13 @@ nav .menu-btn,
   color: rgb(255, 196, 0);
 }
 
-.how-it-works span.fas {
+.how-it-works i {
   color: #ffffff;
   font-size: 35px;
+  
+}
+.how-it-works svg path {
+  stroke: white;
 }
 .about {
   width: 100%;
