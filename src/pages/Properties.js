@@ -2,7 +2,7 @@ import { propertiesData } from '../data/data';
 
 const Properties = () => {
   return (
-    <div className="product">
+    <div id="property">
         <div className="p-heading">
             <h3>Properties</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>

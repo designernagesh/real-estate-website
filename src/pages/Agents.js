@@ -3,7 +3,7 @@ import { AgentsData } from '../data/data';
 
 const Agents = () => {
   return (
-    <div className="agent">
+    <div id="agents">
       <div className="a-heading">
         <h1>Agents</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>

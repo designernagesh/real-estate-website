@@ -2,7 +2,7 @@ import HowItData from "../data/data";
 
 const HowItWorks = () => {
   return (
-    <div className="how-it-works">
+    <div id="how-it-works">
       <div className="container">
         <h2>How It Works</h2>
         <div className="flex">

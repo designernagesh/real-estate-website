@@ -1,22 +1,23 @@
-import logo from '../images/logo1.png';
+import logoImage from '../images/logo.png';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     return (
         <nav>
-            <a href="#" className="logo">
-                <img src={logo} alt="logo" />	
-            </a>
+            <Link to="intro" className="logo">
+                <img src={logoImage} alt="logo" />	
+            </Link>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
                 <span className="nav-icon"></span>
             </label>
 
             <ul className="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Agents</a></li>
-                <li><a href="#">Property</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><Link to="intro">Home</Link></li>
+                <li><Link to="about">About</Link></li>
+                <li><Link to="agents">Agents</Link></li>
+                <li><Link to="property">Property</Link></li>
+                <li><Link to="contact">Contact</Link></li>
             </ul>
 
             <a href="#" className="property">Properties</a>
