@@ -13,11 +13,11 @@ const Navbar = () => {
             </label>
 
             <ul className="menu">
-                <li><Link to="intro">Home</Link></li>
-                <li><Link to="about">About</Link></li>
-                <li><Link to="agents">Agents</Link></li>
-                <li><Link to="property">Property</Link></li>
-                <li><Link to="contact">Contact</Link></li>
+                <li><Link to="intro" spy={true} smooth={true} duration={500}>Home</Link></li>
+                <li><Link to="about" spy={true} smooth={true} duration={500}>About</Link></li>
+                <li><Link to="agents" spy={true} smooth={true} duration={500}>Agents</Link></li>
+                <li><Link to="property" spy={true} smooth={true} duration={500}>Property</Link></li>
+                <li><Link to="contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
             </ul>
 
             <a href="#" className="property">Properties</a>
